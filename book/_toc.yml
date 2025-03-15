@@ -11,15 +11,6 @@ parts:
       sections:
       - file: transport/example
       - file: transport/script_conversion
-    - file: exercises
-      sections:
-      - file: exercises/001.md
-      - file: exercises/002.md
-      - file: exercises/003.md
-      - file: exercises/004.md
-      - file: exercises/005.md
-      - file: exercises/006.md
-      - file: exercises/summary
     - file: references.md
     - file: changelog.md
     - file: credits.md

@@ -7,6 +7,10 @@ parts:
     - file: some_content/overview.md
       sections:
       - file: some_content/text_and_code.ipynb
+    - file: transport/overview
+      sections:
+      - file: transport/example
+      - file: transport/script_conversion
     - file: exercises
       sections:
       - file: exercises/001.md

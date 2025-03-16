@@ -137,5 +137,15 @@ The sliders needed to be adjusted: a few values were changed and the `az` parame
 
 ## Add Feature to Plot
 
+It may be useful to see what the calculated value of $R_d$ is. This is easy to add with the `text` method from Matplotlib, but I always have trouble remembering the name of the method as well as the arguments that are allowed. This is an excellent thing to ask an AI assistant, for example, the following question:
+
+>Add a text description to the plot that shows the value of R.
+
+Resulted in this line of code:
+
+```python
+plt.text(0.05, 0.10, f'R = {R:.2f}', transform=plt.gca().transAxes, fontsize=12, verticalalignment='top')
+```
+
 ## Create Cross-Section View
 

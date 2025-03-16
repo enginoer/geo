@@ -9,8 +9,8 @@ parts:
       - file: some_content/text_and_code.ipynb
     - file: transport/overview
       sections:
-      - file: transport/example
-      - file: transport/script_conversion
+      - file: transport/example01
+      - file: transport/example02
     - file: references.md
     - file: changelog.md
     - file: credits.md

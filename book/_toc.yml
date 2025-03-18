@@ -11,6 +11,7 @@ parts:
       sections:
       - file: transport/example01
       - file: transport/example02
+      - file: transport/example03
     - file: references.md
     - file: changelog.md
     - file: credits.md
